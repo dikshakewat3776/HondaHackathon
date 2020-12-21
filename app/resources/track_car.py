@@ -1,7 +1,7 @@
+from HondaHackathon.app.utils.decrease_time import decrease_time
 from datetime import datetime
 from HondaHackathon.app.utils.make_db_connection import execute_sql_query, DATABASE_CONFIGS
 from HondaHackathon.app.utils.lat_long_to_address import reverseGeocode
-from HondaHackathon.app.utils.decrease_time import decrease_time
 
 
 MAX_MINUTES = 15
